@@ -1,1 +1,21 @@
 /* write your override styles here */
+#wall .tag-1 {
+    background-color: pink;
+    display: none;
+}
+.tag-1 #tag-2 {
+    left: 10;
+    display: none
+}
+#tag-2 #tag-3 {
+    top: 10;
+    display: none;
+}
+#tag-2 .slickwicked {
+    width: 500px;
+    display: none
+}
+.parent {
+    background-color: blue;
+    display: none;
+}
